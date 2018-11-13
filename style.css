@@ -1,0 +1,49 @@
+body {
+	background-color: blue;
+}
+
+h1 {
+ text-align: center;
+ font-family: 'Bitter', serif;
+}
+
+ img {
+	Height: 400%
+	Width: 600%
+}
+
+.border {
+	border: 5px black solid;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  grid-gap: 12vh;
+  grid-template-columns: 1fr 1fr;
+}
+
+}
+.samplegrid-a {
+	background-color:
+	padding: 17em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	border:1px black solid;
+}
+
+a{
+	font-size: 40px;
+	color: #8A1BD5;
+}
